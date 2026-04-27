@@ -48,7 +48,7 @@ export default function Home() {
 
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-3 w-full">
-          <button className="flex-1 rounded-2xl bg-gray-900 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-gray-700 active:scale-95">
+          <button className="flex-1 rounded-2xl bg-green-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-green-400 active:scale-95">
             Get Started →
           </button>
           <button className="flex-1 rounded-2xl border border-gray-200 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition-all hover:bg-gray-50 active:scale-95">
