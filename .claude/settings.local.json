@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Skill(update-config)",
-      "Bash(npx create-next-app@latest *)"
+      "Bash(npx create-next-app@latest *)",
+      "Bash(curl -s http://localhost:3000)",
+      "mcp__claude_ai_Figma__get_screenshot",
+      "WebFetch(domain:status.claude.com)",
+      "mcp__claude_ai_Figma__get_design_context"
     ]
   }
 }
